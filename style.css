@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: lavender;
+}
+
+#page
+{
+    width: 800px;
+    padding: 10px;
+    margin: 10px auto;
+    border: solid 1px #ccc;
+    background-color: white;
+}
+
+#head
+{
+    height: 130px;
+   
+}
+
+#title
+{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#address
+{
+   
+    width: 90%;
+}
+
+.button
+{
+    text-align: center;
+}

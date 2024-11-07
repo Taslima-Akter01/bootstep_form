@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="page">
+        <div id="head">
+            <h1 id="title">Student Registertion Form</h1>
+        </div>
+        <div class="input-group mb-3">
+            <input type="file" class="form-control" id="file">
+            <label class="input-group-text" for="file" >Upload</label>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">First Name :</span>
+            <input type="text" class="form-control" id="input" placeholder="Enter your name">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Last Name :</span>
+            <input type="text" class="form-control" id="input" placeholder="Enter Your Last Name">
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Phone Number :</span>
+            <input type="number" class="form-control" id="phone_number" placeholder="Enter your Number">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Date Of Birth :</span>
+            <input type="date" class="form-control" id="date_of_birth" placeholder="date_of_birth">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Email :</span>
+            <input type="text" class="form-control" id="email" placeholder="Enter Your Email (abc@gmail.com)">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Country  :</span>
+            <input type="text" class="form-control" id="Country" placeholder="Enter Your Country">
+        </div>
+        <div class="input-group mb-3" id="address">
+            <label class="input-group-text" for="address" id="address2">Address :</label>
+            <textarea class="input-group-textarea" id="address"  rows="5"></textarea>
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="Faculty">Faculty</label>
+            <select class="form-select">
+                <option selected>Choose...</option>
+                <option value="Faculty of Shariah and Islamic Studies">Faculty of Shariah and Islamic Studies</option>
+                <option value="Faculty of Arts and Humanites">Faculty of Arts and Humanites</option>
+                <option value="Faculty of Law">Faculty of Law</option>
+                <option value="Faculty of Science and Engineering">Faculty of Science and Engineering</option>
+                <option value="Faculty of Business Studies">Faculty of Business Studies</option>
+                <option value="Faculty of Social and Science">Faculty of Social and Science</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="department">Department</label>
+            <select class="form-select">
+                <option selected>Choose...</option>
+                <option value="EEE">EEE</option>
+                <option value="CSE">CSE</option>
+                <option value="CCE">CCE</option>
+                <option value="ETE">ETE</option>
+                <option value="Phermecy">Phermecy</option>
+                <option value="CE">CE</option>
+                <option value="QSIS">QSIS</option>
+                <option value="DIS">DIS</option>
+                <option value="SHIS">SHIS</option>
+                <option value="ELL">ELL</option>
+                <option value="ALL">ALL</option>
+                <option value="US">US</option>
+                <option value="LAW">LAW</option>
+                <option value="BA">BA</option>
+            </select>
+
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="blood-group">Blood Group</label>
+            <select class="form-select">
+                <option selected>Choose...</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="Religion">Religion</label>
+            <select class="form-select" id="Religion">
+                <option selected>Choose...</option>
+                <option value="ISLAM">ISLAM</option>
+                <option value="HINDU">HINDU</option>
+                <option value="Buddisht">Buddisht</option>
+                <option value="Christian">Christian</option>
+            </select>
+        </div>
+        <div class="mb-3" class="form-check"> Gender :
+            <input type="radio" class="form-check-input" id="radio" name="radiotion">
+            <label for="radio" class="form-check-label">Male</label>
+            <input type="radio" class="form-check-input" id="input" name="radiotion">
+            <label for="input" class="form-check-label">Female</label>
+            <input type="radio" class="form-check-input" id="other" name="radiotion">
+            <label for="other" class="form-check-label">Others</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="checkbox">
+            <label for="checkbox" class="form-check-label"> I do hereby certify that the information provided in this application is complete and true. I understand that the University has the right to reject this application or cancel my admission if any information provided herein is found false or incorrect. If my application is accepted for admission to the program applied for, I undertake to abide by all the rules and regulations of this University and ensure to pay all fees & charges duly.
+            </label>
+        </div>
+        <div class="button">
+            <button type="button" class="btn btn-outline-dark" >Submit</button>
+            <button type="button" class="btn btn-outline-secondary" >Reset</button>
+        </div>
+
+    </div>
+</body>
+</html>
